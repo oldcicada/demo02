@@ -1,14 +1,10 @@
-function $(id){
-	return typeof id==='string'?document.getElementById(id):id;
-}
-
 window.onload=function(){
   // 标签的索引
   var index=0;
   var timer=null;
-
-  var $li=document.querySelector('.tag-wrapper-head-li');
-    var   $div=document.querySelector('.section');;
+  var tag=document.querySelector('.tag-wrapper')
+  var $li=tag.getElementsByClassName('tag-wrapper-head-li');
+  var $div=tag.getElementsByClassName('section');
 
   if($li.length!=$div.length) return;
 
@@ -26,10 +22,10 @@ window.onload=function(){
       // 延迟半秒执行
       timer=window.setTimeout(function(){
         for(var j=0;j<$li.length;j++){
-          $li[j].className='';
+          $li[j].className='tag-wrapper-head-li';
           $div[j].style.display='none';
         }
-        $li[that.id].className='select';
+        //$li[that.id].className='select';
         $div[that.id].style.display='block';
       },500);
     }
