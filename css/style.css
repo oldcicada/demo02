@@ -1,23 +1,40 @@
 body{margin:0;padding:0;}
-.tag-wrapper{
+.tag{
 	width :100%;
-	height:770px;;
+	height:770px;
 	background-color:#7d7d7dd1;
+}
+
+.tag-wrapper{
+	width:196px;
+	height:230px;
+	padding-left:200px;
 	float:left;
 }
-.tag-wrapper .tag-wrapper-head{
-	width:396px;
+.tag-wrapper2{
+	width:196px;
+	height:230px;
+	padding-left:200px;
+	float:left;
+}
+.tag-wrapper3{
+	width:196px;
+	height:230px;
+	padding-left:200px;
+	float:left;
+}
+.tag-wrapper-head{
+	width:196px;
 	height:50px;
 	background-color:#f3eaea26;
-	clear:both;
 }
-.tag-wrapper .tag-wrapper-head ul{
+.tag-wrapper-head ul{
 	height:50px;
 	margin:0;
 	padding:0;
 	text-align:center;
 }
-.tag-wrapper .tag-wrapper-head .tag-wrapper-head-li{
+.tag-wrapper-head .tag-wrapper-head-li{
 	width:42px;
 	float:left;
 	font-size: 24px;
@@ -29,17 +46,17 @@ body{margin:0;padding:0;}
 	margin-top: 8px;
 }
 
-.tag-wrapper .tag-wrapper-body{
-	width:396px;
-	height:380px;
+.tag-wrapper-body{
+	width:196px;
+	height:180px;
 	background-color:#6b6767d1;
 	margin:0 auto;
 	float:left;
 	overflow:hidden;
 }
-.tag-wrapper .tag-wrapper-body .tag-wrapper-body-number{ 
-	width:396px;
-	height:390px;
+.tag-wrapper-body .tag-wrapper-body-number{ 
+	width:196px;
+	height:180px;
 	margin:0 auto;
 	
 }
